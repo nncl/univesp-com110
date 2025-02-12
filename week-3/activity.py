@@ -53,3 +53,7 @@ def update_first_grade():
     print(grades)
 
 update_first_grade()
+
+print(type(5))
+print(type(3.2))
+print(type(['hello', 'world']))
