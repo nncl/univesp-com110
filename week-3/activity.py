@@ -46,3 +46,10 @@ def return_name_by_index(index: int):
     print(names[index])
 
 return_name_by_index(-1)
+
+def update_first_grade():
+    grades = [8.0, 5.5, 9.3, 7.6, 3.1]
+    grades[0]=grades[0]+0.5
+    print(grades)
+
+update_first_grade()
