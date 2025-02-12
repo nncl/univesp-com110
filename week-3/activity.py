@@ -17,3 +17,26 @@ def display_list_items():
     print(list_example)
 
 display_list_items()
+
+def return_types():
+    letter_1 = 'A',
+
+    letter_2 = ('A', 'B')
+
+    letter_3 = 'A'
+
+    letter_4 = ('A')
+
+    print(type(letter_1))
+
+    print(type(letter_2))
+
+    print(type(letter_3))
+
+    print(type(letter_4))
+
+return_types()
+
+print('Type is', type('A'))
+print('Type is', type(('A')))
+print('Type is', type(('A', 'B')))
