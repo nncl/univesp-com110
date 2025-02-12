@@ -40,3 +40,9 @@ return_types()
 print('Type is', type('A'))
 print('Type is', type(('A')))
 print('Type is', type(('A', 'B')))
+
+def return_name_by_index(index: int):
+    names = ['João', 'Maria', 'José', 'Marta']
+    print(names[index])
+
+return_name_by_index(-1)
