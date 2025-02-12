@@ -54,6 +54,9 @@ def update_first_grade():
 
 update_first_grade()
 
-print(type(5))
-print(type(3.2))
-print(type(['hello', 'world']))
+def validate_data_types():
+    print(type(5))
+    print(type(3.2))
+    print(type(['hello', 'world']))
+
+validate_data_types()
