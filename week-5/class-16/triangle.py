@@ -20,3 +20,13 @@ def drawAndDefineTriangleType():
 
 
 drawAndDefineTriangleType()
+
+def temperature(temp: float):
+    if temp > 86:
+        print("Hot")
+    elif temp > 32:
+        print("Cold")
+    else:
+        print("Freaking cold")
+
+temperature(20)
