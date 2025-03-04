@@ -8,3 +8,16 @@ def print_animals(args: [str]) -> None:
         print(item, args[item])
 
 print_animals(animals)
+
+def factorial(limit: int) -> int:
+    count = 0
+    fat = 1
+
+    while fat <= limit:
+        count += 1
+        fat *= count
+        print(count, fat, limit)
+
+    return count - 1
+
+print(factorial(20))
