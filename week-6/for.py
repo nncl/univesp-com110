@@ -9,7 +9,7 @@ def print_animals(args: [str]) -> None:
 
 print_animals(animals)
 
-def factorial(limit: int) -> int:
+def get_max_factorial(limit: int) -> int:
     count = 0
     fat = 1
 
@@ -20,4 +20,4 @@ def factorial(limit: int) -> int:
 
     return count - 1
 
-print(factorial(20))
+print(get_max_factorial(20))
