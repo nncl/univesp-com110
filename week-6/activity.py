@@ -5,7 +5,7 @@ def asks_factorial() -> int:
     x = 1
 
     while x <= num:
-        factorial *= x # <-
+        factorial *= x # <- OR factorial = factorial from the exercise
         x += 1
 
     return factorial
