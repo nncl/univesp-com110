@@ -10,6 +10,13 @@ def is_prime(number: int) -> bool:
 
     return i == number
 
+# For academic purposes, in real life we would just print if it's prime
+#   instead (for better reading for god's sake).
+for number in range(2, 100):
+    if not is_prime(number):
+        continue
+    print(number)
+
 class TestPrimeFunction(unittest.TestCase):
     def test_prime_numbers(self):
         self.assertTrue(is_prime(2))
