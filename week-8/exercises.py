@@ -6,13 +6,8 @@ for _ in range(N):
     msg = ""
     word = ""
 
-    for character in text:
-        if character == " ":
-            if word != "":
-                msg += word[0]
-                word = ""
-        else:
-            word += character
+    for character in text.replace(" ", ""):
+        word += character
 
     if word != "":
         msg += word[0]
